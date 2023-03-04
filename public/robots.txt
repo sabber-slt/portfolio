@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.sabber.dev
+
+# Sitemaps
+Sitemap: https://www.sabber.dev/sitemap.xml
+Sitemap: https://www.sabber.dev/server-sitemap.xml
