@@ -21,7 +21,6 @@ const LinkItem = (props: Props) => {
             passHref
             aria-label={props.aria}
             target="_blank"
-            rel="noopener noreferrer"
         >
             {props.icon}
         </Link>
@@ -39,22 +38,22 @@ const Social: FC<{ color: string }> = ({ color }) => {
             <LinkItem
                 href={"tel:09122863901"}
                 aria="Phone"
-                icon={<AiFillPhone className={`${color} w-8 h-8`} />}
+                icon={<AiFillPhone className={`${color} w-10 h-10`} />}
             />
             <LinkItem
                 href={"https://github.com/sabber-slt"}
                 aria="Github"
-                icon={<AiFillGithub className={`${color} w-8 h-8`} />}
+                icon={<AiFillGithub className={`${color} w-10 h-10`} />}
             />
             <LinkItem
                 href={"https://twitter.com/sabber_slt"}
                 aria="Twitter"
-                icon={<AiFillTwitterSquare className={`${color} w-8 h-8`} />}
+                icon={<AiFillTwitterSquare className={`${color} w-10 h-10`} />}
             />
             <LinkItem
                 href={"https://instagram.com/sabber.dev"}
                 aria="Instagram"
-                icon={<AiFillInstagram className={`${color} w-8 h-8`} />}
+                icon={<AiFillInstagram className={`${color} w-10 h-10`} />}
             />
         </motion.div>
     );

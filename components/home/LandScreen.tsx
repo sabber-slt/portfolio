@@ -11,7 +11,7 @@ const LandScreen = () => {
     });
     return (
         <div className="relative w-full h-screen flex flex-col lg:flex-row items-center justify-center">
-            <div className="relative z-40 w-full lg:w-1/2 h-[40vh] lg:h-full vstack justify-center p-5">
+            <div className="relative z-40 w-full lg:w-1/2 h-[45vh] lg:h-full vstack justify-center p-5">
                 <p className="mb-2 font-bold text-xl text-blue">
                     <Cursor />
                     {text}
@@ -30,7 +30,7 @@ const LandScreen = () => {
                     alt="صابر سلطانی"
                     pri={true}
                     size="100%"
-                    cls="w-80 lg:w-96 h-[55vh] lg:h-[80vh]"
+                    cls="w-72 lg:w-96 h-96 lg:h-[80vh]"
                 />
             </div>
         </div>
