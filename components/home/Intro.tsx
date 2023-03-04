@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import BlurImage from "../main/BlurImage";
 import { Main } from "../../types/interfaces";
+import { motion } from "framer-motion";
 
 interface Props {
     image: string;
@@ -9,7 +10,12 @@ interface Props {
 }
 const Item = (props: Props) => {
     return (
-        <div className="w-80 lg:w-96 vstack z-40">
+        <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ ease: "linear", duration: 1, delay: 0.8 }}
+            className="w-80 lg:w-96 vstack z-40"
+        >
             <BlurImage
                 src={props.image}
                 alt={props.title}
@@ -19,7 +25,7 @@ const Item = (props: Props) => {
             />
             <h1 className="font-bold text-xl my-3">{props.title}</h1>
             <p className="text-center">{props.content}</p>
-        </div>
+        </motion.div>
     );
 };
 

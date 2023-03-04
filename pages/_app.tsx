@@ -1,10 +1,9 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import localFont from "@next/font/local";
-import { useState } from "react";
-
 import Layout from "@/components/Layout";
 import { DefaultSeo } from "next-seo";
+import { GoogleAnalytics } from "nextjs-google-analytics";
 
 const inter = localFont({
     src: [
@@ -36,8 +35,8 @@ export default function App({ Component, pageProps }: AppProps) {
                     images: [
                         {
                             url: "https://www.sabber.dev/profile.png",
-                            width: 446,
-                            height: 747,
+                            width: 1920,
+                            height: 1080,
                             alt: "صابر سلطانی",
                             type: "image/png",
                         },
@@ -55,7 +54,7 @@ export default function App({ Component, pageProps }: AppProps) {
                     },
                 ]}
             />
-
+            <GoogleAnalytics trackPageViews />
             <main className={inter.className}>
                 <Layout>
                     <Component {...pageProps} />

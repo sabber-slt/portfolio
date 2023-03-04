@@ -11,13 +11,14 @@ const LandScreen = () => {
     });
     return (
         <div className="relative w-full h-screen flex flex-col lg:flex-row items-center justify-center">
-            <div className="relative z-40 w-full lg:w-1/2 h-1/2 lg:h-full vstack justify-center p-5">
-                <p className="mb-2 font-bold text-lg text-blue">
+            <div className="relative z-40 w-full lg:w-1/2 h-[40vh] lg:h-full vstack justify-center p-5">
+                <p className="mb-2 font-bold text-xl text-blue">
                     <Cursor />
                     {text}
                 </p>
-                <h1 className="my-5 text-center text-2xl font-bold z-50">
-                    به وبسایت صابر سلطانی برنامه نویس Full-Stack خوش آمدید
+                <h1 className="my-5 text-center text-xl lg:text-2xl font-bold z-50 leading-10">
+                    سلام، من صابر سلطانی کارشناس و برنامه نویس Full-Stack هستم،
+                    به وب سایت من خوش آمدید
                 </h1>
                 <div className="w-full center">
                     <Social color="text-blue" />
@@ -29,7 +30,7 @@ const LandScreen = () => {
                     alt="صابر سلطانی"
                     pri={true}
                     size="100%"
-                    cls="w-80 lg:w-96 h-[50vh] lg:h-[80vh]"
+                    cls="w-80 lg:w-96 h-[55vh] lg:h-[80vh]"
                 />
             </div>
         </div>

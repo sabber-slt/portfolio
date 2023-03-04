@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import BlurImage from "./BlurImage";
+import { motion } from "framer-motion";
 
 type Props = {
     href: string;
@@ -11,7 +12,16 @@ type Props = {
 
 const Card = (props: Props) => {
     return (
-        <div className="w-80 lg:w-80 h-96 lg:h-96 vstack bg-white rounded-lg shadow-xl overflow-hidden">
+        <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{
+                ease: "linear",
+                duration: 1,
+                delay: 1,
+            }}
+            className="w-80 lg:w-80 h-96 lg:h-96 vstack bg-white rounded-lg shadow-xl overflow-hidden"
+        >
             <BlurImage
                 src={props.image}
                 alt={props.title}
@@ -31,7 +41,7 @@ const Card = (props: Props) => {
             >
                 مطالعه بیشتر
             </Link>
-        </div>
+        </motion.div>
     );
 };
 
