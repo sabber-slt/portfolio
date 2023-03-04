@@ -4,6 +4,7 @@ import BlurImage from "../main/BlurImage";
 const About = () => {
     return (
         <div className="w-full h-full lg:h-screen flex flex-col lg:flex-row items-center justify-between bg-blue">
+            <h1 className="hidden">برنامه نویسی و ساخت اپلیکیشن و وب سایت</h1>
             <div className="w-full lg:w-[50vw] lg:h-[50vh] flex flex-col justify-center text-white px-5 py-12 lg:py-0">
                 <p className="pt-3 lg:text-xl">
                     به عنوان برنامه نویس در سالیان گذشته توانسته ام پلتفرم های
