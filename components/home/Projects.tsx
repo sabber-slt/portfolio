@@ -48,6 +48,10 @@ const Item = (props: Props) => {
                     {props.title}
                 </h1>
             </div>
+            <p className="hidden">
+                صابر سلطانی برنامه نویس ارشد جاوااسکریپت و ساخت پلتفرم های روز
+                دنیا
+            </p>
         </Link>
     );
 };

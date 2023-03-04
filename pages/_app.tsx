@@ -24,8 +24,8 @@ export default function App({ Component, pageProps }: AppProps) {
     return (
         <>
             <DefaultSeo
-                title="صابر سلطانی | برنامه نویس کامپیوتر"
-                description="طراحی و ساخت انواع وبسایت و اپلیکیشن های موبایل و دسکتاپ با استفاده از جدید ترین تکنولوژی های روز دنیا توسط مهندس کامپیوتر"
+                title="صابر سلطانی ✌"
+                description="صابر سلطانی برنامه نویسی و کارشناس نرم افزار ، طراح و توسعه دهنده سرور، وب سایت ، اپلیکیشن و تکنولوژی های روز دنیا"
                 canonical="https://www.sabber.dev/"
                 openGraph={{
                     type: "website",
@@ -43,8 +43,8 @@ export default function App({ Component, pageProps }: AppProps) {
                     ],
                 }}
                 twitter={{
-                    handle: "@sltsabber",
-                    site: "@sltsabber",
+                    handle: "@sadratech",
+                    site: "@sadratech",
                     cardType: "summary_large_image",
                 }}
                 additionalLinkTags={[

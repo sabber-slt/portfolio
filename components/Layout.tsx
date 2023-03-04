@@ -13,6 +13,7 @@ type Props = {
 const Layout = (props: Props) => {
     return (
         <>
+            <p className="hidden">صابر سلطانی</p>
             <Navbar />
             <div className="w-full vstack">{props.children}</div>
             <Footer />

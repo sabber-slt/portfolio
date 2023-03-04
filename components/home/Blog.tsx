@@ -16,6 +16,7 @@ const Blog: FC<{ data: Main[] }> = ({ data }) => {
                     />
                 ))}
             </div>
+            <p className="hidden">صابر سلطانی</p>
         </div>
     );
 };
