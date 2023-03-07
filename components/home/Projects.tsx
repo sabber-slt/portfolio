@@ -44,9 +44,9 @@ const Item = (props: Props) => {
                     sizes="70%"
                     style={{ objectFit: "cover", opacity: 0.8 }}
                 />
-                <h1 className="z-40 text-white font-bold text-xl lg:text-4xl">
+                <h3 className="z-40 text-white font-bold text-xl lg:text-4xl">
                     {props.title}
-                </h1>
+                </h3>
             </div>
             <p className="hidden">
                 صابر سلطانی برنامه نویس ارشد جاوااسکریپت و ساخت پلتفرم های روز

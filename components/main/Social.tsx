@@ -46,7 +46,7 @@ const Social: FC<{ color: string }> = ({ color }) => {
                 icon={<AiFillGithub className={`${color} w-10 h-10`} />}
             />
             <LinkItem
-                href={"https://twitter.com/sadratech"}
+                href={"https://twitter.com/sltdev"}
                 aria="Twitter"
                 icon={<AiFillTwitterSquare className={`${color} w-10 h-10`} />}
             />

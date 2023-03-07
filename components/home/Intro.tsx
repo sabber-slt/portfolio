@@ -23,7 +23,7 @@ const Item = (props: Props) => {
                 pri={false}
                 cls="w-24 h-24"
             />
-            <h1 className="font-bold text-xl my-3">{props.title}</h1>
+            <h3 className="font-bold text-xl my-3">{props.title}</h3>
             <p className="text-center">{props.content}</p>
         </motion.div>
     );

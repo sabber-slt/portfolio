@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const About = () => {
     return (
         <div className="w-full h-full lg:h-screen flex flex-col lg:flex-row items-center justify-between bg-blue">
-            <h1 className="hidden"> صابر سلطانی برنامه نویس </h1>
+            <h3 className="hidden"> صابر سلطانی برنامه نویس </h3>
             <div className="w-full lg:w-[50vw] lg:h-[50vh] flex flex-col justify-center text-white px-5 py-12 lg:py-0">
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}

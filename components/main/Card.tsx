@@ -30,7 +30,7 @@ const Card = (props: Props) => {
                 cls="w-full h-48"
             />
             <div className="h-12 center font-bold">
-                <h1>{props.title}</h1>
+                <h3>{props.title}</h3>
             </div>
             <p className="text-right px-2 text-sm leading-6">
                 {props.content}...
