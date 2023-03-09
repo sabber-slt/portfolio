@@ -16,9 +16,9 @@ const LandScreen = () => {
                     <Cursor />
                     {text}
                 </h1>
-                <h2 className="my-5 text-center text-xl lg:text-2xl font-bold z-50 leading-10">
-                    سلام، من صابر سلطانی کارشناس و برنامه نویس Full-Stack هستم،
-                    به وب سایت من خوش آمدید
+                <h2 className="my-3 text-center text-xl lg:text-2xl font-bold z-50 leading-10">
+                    به وب سایت صابر سلطانی کارشناس و برنامه نویس کامپیوتر خوش
+                    آمدید
                 </h2>
                 <div className="w-full center">
                     <Social color="text-blue" />

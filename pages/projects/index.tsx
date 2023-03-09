@@ -45,7 +45,7 @@ const Project: NextPage<ProjectProps> = (data) => {
 
 export default Project;
 export const getServerSideProps: GetServerSideProps = async () => {
-    const res = await fetch(`${process.env.GraphqlAPI}/api/rest/projects`);
+    const res = await fetch(`http://188.166.7.171:8080/api/rest/projects`);
     const json = await res.json();
     return {
         props: {

@@ -34,7 +34,7 @@ export const getMains = async () => {
 };
 
 export const getBlogsById = async (id: number) => {
-    const response = await fetch(`${process.env.GraphqlAPI}/v1/graphql`, {
+    const response = await fetch(`http://188.166.7.171:8080/v1/graphql`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -71,7 +71,7 @@ export const getBlogsById = async (id: number) => {
     return json?.data?.blog[0];
 };
 export const getProjectsById = async (id: number) => {
-    const response = await fetch(`${process.env.GraphqlAPI}/v1/graphql`, {
+    const response = await fetch(`http://188.166.7.171:8080/v1/graphql`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json",

@@ -35,7 +35,7 @@ const Home: NextPage<MainProps> = (data) => {
 
 export default Home;
 export const getServerSideProps: GetServerSideProps = async () => {
-    const res = await fetch(`${process.env.GraphqlAPI}/api/rest/mains`);
+    const res = await fetch(`http://188.166.7.171:8080/api/rest/mains`);
     const json = await res.json();
     return {
         props: {
